@@ -1,0 +1,36 @@
+--- Performance Summary for 90_10 Split ---
+
+--- Original Models ---
+Model: Logistic Regression
+  Accuracy: 0.5834
+  ROC AUC: 0.6094
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    3008    2036
+Actual 1    2130    2826
+
+Model: Random Forest
+  Accuracy: 0.6135
+  ROC AUC: 0.6611
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    2980    2064
+Actual 1    1801    3155
+
+--- Tuned Models ---
+Model: Logistic Regression
+  Accuracy: 0.5835
+  ROC AUC: 0.6093
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    3009    2035
+Actual 1    2130    2826
+
+Model: Random Forest
+  Accuracy: 0.6170
+  ROC AUC: 0.6655
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    2993    2051
+Actual 1    1779    3177
+

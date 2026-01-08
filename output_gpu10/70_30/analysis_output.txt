@@ -1,0 +1,36 @@
+--- Performance Summary for 70_30 Split ---
+
+--- Original Models ---
+Model: Logistic Regression
+  Accuracy: 0.5774
+  ROC AUC: 0.6056
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    8946    6185
+Actual 1    6493    8376
+
+Model: Random Forest
+  Accuracy: 0.6062
+  ROC AUC: 0.6502
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    8809    6322
+Actual 1    5493    9376
+
+--- Tuned Models ---
+Model: Logistic Regression
+  Accuracy: 0.5774
+  ROC AUC: 0.6056
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    8946    6185
+Actual 1    6493    8376
+
+Model: Random Forest
+  Accuracy: 0.6107
+  ROC AUC: 0.6541
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    8933    6198
+Actual 1    5482    9387
+

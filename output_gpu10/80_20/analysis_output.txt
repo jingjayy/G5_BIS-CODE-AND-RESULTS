@@ -1,0 +1,36 @@
+--- Performance Summary for 80_20 Split ---
+
+--- Original Models ---
+Model: Logistic Regression
+  Accuracy: 0.5809
+  ROC AUC: 0.6088
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    5972    4116
+Actual 1    4265    5647
+
+Model: Random Forest
+  Accuracy: 0.6119
+  ROC AUC: 0.6548
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    5873    4215
+Actual 1    3546    6366
+
+--- Tuned Models ---
+Model: Logistic Regression
+  Accuracy: 0.5810
+  ROC AUC: 0.6088
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    5973    4115
+Actual 1    4265    5647
+
+Model: Random Forest
+  Accuracy: 0.6156
+  ROC AUC: 0.6586
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0    5981    4107
+Actual 1    3582    6330
+

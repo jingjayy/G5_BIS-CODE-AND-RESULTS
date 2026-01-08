@@ -1,0 +1,36 @@
+--- Performance Summary for 60_40 Split ---
+
+--- Original Models ---
+Model: Logistic Regression
+  Accuracy: 0.5784
+  ROC AUC: 0.6062
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0   11982    8193
+Actual 1    8672   11153
+
+Model: Random Forest
+  Accuracy: 0.6051
+  ROC AUC: 0.6499
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0   11717    8458
+Actual 1    7338   12487
+
+--- Tuned Models ---
+Model: Logistic Regression
+  Accuracy: 0.5784
+  ROC AUC: 0.6062
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0   11983    8192
+Actual 1    8673   11152
+
+Model: Random Forest
+  Accuracy: 0.6092
+  ROC AUC: 0.6527
+  Confusion Matrix:
+          Pred 0  Pred 1
+Actual 0   11925    8250
+Actual 1    7383   12442
+
